@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\entity\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\entity\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\adso-2900177-piscicontrol\\mer_proyect1.5\\web\\controllers\\formcontrollerprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\formcontrollerprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +63,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonDto.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\DTOs\\PersonDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\PersonDto.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\DTOs\\PersonDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\PersonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:34:14.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\Model\\Person.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Person.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\Model\\Person.cs",
+              "RelativeToolTip": "Entity\\Model\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:32:11.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T16:23:32.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
               "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Program.cs",
               "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABYAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T06:41:42.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "Web\\AutoMapperProfile.cs",
@@ -71,12 +122,11 @@
               "RelativeToolTip": "Web\\AutoMapperProfile.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwC0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:38:15.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:38:15.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\UserController.cs",
@@ -84,12 +134,11 @@
               "RelativeToolTip": "Web\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:37:32.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:37:32.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "RolUserController.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\RolUserController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\RolUserController.cs",
@@ -97,12 +146,11 @@
               "RelativeToolTip": "Web\\Controllers\\RolUserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:36:50.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:36:50.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "RolFormPermissionController.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\RolFormPermissionController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\RolFormPermissionController.cs",
@@ -110,12 +158,11 @@
               "RelativeToolTip": "Web\\Controllers\\RolFormPermissionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:35:29.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:35:29.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\RolController.cs",
@@ -123,25 +170,24 @@
               "RelativeToolTip": "Web\\Controllers\\RolController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:34:33.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:34:33.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\PersonController.cs",
               "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\PersonController.cs",
               "RelativeToolTip": "Web\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T06:33:55.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FormControllerPrueba.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\FormControllerPrueba.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\FormControllerPrueba.cs",
@@ -149,12 +195,11 @@
               "RelativeToolTip": "Web\\Controllers\\FormControllerPrueba.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:33:04.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:33:04.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PermissionController.cs",
               "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Web\\Controllers\\PermissionController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\PermissionController.cs",
@@ -162,8 +207,7 @@
               "RelativeToolTip": "Web\\Controllers\\PermissionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:33:01.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:33:01.931Z"
             }
           ]
         }

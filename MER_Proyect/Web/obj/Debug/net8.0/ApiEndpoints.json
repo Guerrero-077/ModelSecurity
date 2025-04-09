@@ -360,7 +360,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PermissionDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PersonDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/Person",
     "HttpMethod": "GET",
@@ -370,7 +370,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PermissionDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PersonDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Create",
     "RelativePath": "api/Person",
     "HttpMethod": "POST",
@@ -379,14 +379,14 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Entity.DTOs.PermissionDto",
+        "Type": "Entity.DTOs.PersonDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PermissionDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PersonDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Update",
     "RelativePath": "api/Person",
     "HttpMethod": "PUT",
@@ -395,14 +395,14 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Entity.DTOs.PermissionDto",
+        "Type": "Entity.DTOs.PersonDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PermissionDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PersonDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetById",
     "RelativePath": "api/Person/{id}",
     "HttpMethod": "GET",
@@ -418,7 +418,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PermissionDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PersonDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Delete",
     "RelativePath": "api/Person/{id}",
     "HttpMethod": "DELETE",
@@ -434,7 +434,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PermissionDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.GenericController\u00601[[Entity.DTOs.PersonDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "DeleteLogic",
     "RelativePath": "api/Person/logic/{id}",
     "HttpMethod": "DELETE",

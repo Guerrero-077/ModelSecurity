@@ -13,6 +13,7 @@ namespace Entity.Model
         public string lastname { get; set; }
         public string phonenumber { get; set; }
         public bool active { get; set; }
+        public bool isdeleted { get; set; }
         public User User { get; set; }
     }
 }

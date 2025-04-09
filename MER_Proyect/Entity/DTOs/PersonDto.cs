@@ -11,7 +11,7 @@ namespace Entity.DTOs
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set;}
-        public string Phone { get; set; }
+        public string phonenumber { get; set; }
         public bool Active { get; set; }
 
     }

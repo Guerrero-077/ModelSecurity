@@ -6,9 +6,9 @@ namespace Web.Controllers
 {
     [Route("api/[controller]")]
 
-    public class PersonController : GenericController<PermissionDto>
+    public class PersonController : GenericController<PersonDto>
     {
-        public PersonController(IGenericService<PermissionDto> service) : base(service)
+        public PersonController(IGenericService<PersonDto> service) : base(service)
         {
         }
     }
