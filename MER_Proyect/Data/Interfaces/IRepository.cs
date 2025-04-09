@@ -52,7 +52,5 @@ namespace Data.Interfaces
         /// <param name="id">Identificador único de la entidad a eliminar.</param>
         /// <returns>True si la eliminación fue exitosa, False en caso contrario.</returns>
         Task<bool> DeleteAsync(int id);
-
-        Task<IQueryable<T>> QueryAsync(Func<IQueryable<T>, IQueryable<T>> query);
     }
 }

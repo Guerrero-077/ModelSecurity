@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\Entity.csproj": {}
+    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\MER_Proyect\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\Entity.csproj": {
+    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\MER_Proyect\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\MER_Proyect\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\MER_Proyect\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\GUERRERO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\MER_Proyect\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

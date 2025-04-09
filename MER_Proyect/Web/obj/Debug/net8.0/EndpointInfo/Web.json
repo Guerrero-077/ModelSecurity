@@ -1256,10 +1256,6 @@
             "type": "string",
             "nullable": true
           },
-          "createddate": {
-            "type": "string",
-            "format": "date-time"
-          },
           "active": {
             "type": "boolean"
           }
@@ -1306,10 +1302,6 @@
           "description": {
             "type": "string",
             "nullable": true
-          },
-          "createddate": {
-            "type": "string",
-            "format": "date-time"
           },
           "active": {
             "type": "boolean"

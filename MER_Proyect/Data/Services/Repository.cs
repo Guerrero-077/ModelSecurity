@@ -64,22 +64,7 @@ namespace Data.Services
             _dbSet.Remove(entity); await _context.SaveChangesAsync(); 
             return true; 
         }
-        public async Task<bool> DeleteLogicalAsync(int id) 
-        { 
-            var entity = await _dbSet.FindAsync(id); 
-            if (entity == null)
-                return false; 
-            entity.GetType().GetProperty("isdeleted")?.SetValue(entity, true); 
-            _context.Entry(entity).State = EntityState.Modified; 
-            await _context.SaveChangesAsync();
-            return true; 
-        }
+        public async Task<bool> DeleteLogicalAsync(int id) { var entity = await _dbSet.FindAsync(id); if (entity == null) return false; entity.GetType().GetProperty("isdeleted")?.SetValue(entity, true); _context.Entry(entity).State = EntityState.Modified; await _context.SaveChangesAsync(); return true; }
 
-        public async Task<IQueryable<T>> QueryAsync(Func<IQueryable<T>, IQueryable<T>> query)
-        {
-            IQueryable<T> queryable = _context.Set<T>();
-            var result = query(queryable);
-            return await Task.FromResult(result);
-        }
     }
 }

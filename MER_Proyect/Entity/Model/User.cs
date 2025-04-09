@@ -15,7 +15,7 @@ namespace Entity.Model
 
         public string email { get; set; } 
         public string password { get; set; }
-        public DateTime createddate { get; set; }
+        //public DateTime createddate { get; set; }
         public bool active { get; set; }
         public bool isdeleted { get; set; }
         public int personid { get; set; }

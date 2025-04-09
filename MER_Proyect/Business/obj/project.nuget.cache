@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Faxb0ga9grM=",
+  "dgSpecHash": "9jQn+pxyZE4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GUERRERO\\Desktop\\ADSO-2900177-Piscicontrol\\MER_Proyect1.5\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\MER_Proyect\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GUERRERO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\GUERRERO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
