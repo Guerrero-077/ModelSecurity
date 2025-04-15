@@ -1,22 +1,22 @@
-using Business.Interfaces;
 using Business.Services;
 using Data.Interfaces;
 using Data.Services;
 using Entity.Context;
 using Entity.DTOs;
-using Entity.Model;
 using Microsoft.EntityFrameworkCore;
-using MySqlConnector;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
+/// <summary>
+/// Configuración de CORS
+/// </summary>
 
 var origenesPermitidos = builder.Configuration.GetValue<string>("OrigenesPermitidos")!.Split(",");
 builder.Services.AddCors(opciones =>
@@ -27,27 +27,25 @@ builder.Services.AddCors(opciones =>
     });
 });
 
-// REGISTRO DE DEPENDENCIAS GENERALES
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+/// <summary>
+/// Agregar el servicio de AutoMapper
+/// </summary>
 
-// Servicios genéricos
-builder.Services.AddScoped(typeof(IGenericService<FormDto>), typeof(GenericService<FormDto, Form>));
-builder.Services.AddScoped(typeof(IGenericService<FormModuleDto>), typeof(GenericService<FormModuleDto, FormModule>));
-builder.Services.AddScoped(typeof(IGenericService<ModuleDto>), typeof(GenericService<ModuleDto, Module>));
-builder.Services.AddScoped(typeof(IGenericService<UserDto>), typeof(GenericService<UserDto, User>));
-builder.Services.AddScoped(typeof(IGenericService<RolUserDto>), typeof(GenericService<RolUserDto, RolUser>));
-builder.Services.AddScoped(typeof(IGenericService<rolDto>), typeof(GenericService<rolDto, rol>));
-builder.Services.AddScoped(typeof(IGenericService<PersonDto>), typeof(GenericService<PersonDto, Person>));
-builder.Services.AddScoped(typeof(IGenericService<PermissionDto>), typeof(GenericService<PermissionDto, Permission>));
-builder.Services.AddScoped(typeof(IGenericService<RolFormPermissionDto>), typeof(GenericService<RolFormPermissionDto, RolFormPermission>));
-
-// Automapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
-// 📌 SERVICIO EXTENDIDO (importante si quieres que el RolUserController pueda usarlo)
-builder.Services.AddScoped<RolUserRepository>();
-builder.Services.AddScoped<RolFormPermissionRepository>();
-builder.Services.AddScoped<FormModuleRepository>();
+/// <summary>
+/// Implementación de los servicios de negocio
+/// </summary>
+builder.Services.AddScoped<PersonServices>();
+builder.Services.AddScoped<UserService>();
+
+/// <summary>
+/// Implementación de los servicios de acceso a datos
+/// </summary>
+
+builder.Services.AddScoped(typeof(IData<>), typeof(DataGeneric<>));
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 
 // Configuración de Base de Datos
 string databaseProvider = builder.Configuration["DatabaseProvider"];
@@ -71,6 +69,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     }
 });
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -81,7 +81,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors();
+
 app.UseAuthorization();
+
 app.MapControllers();
+
 app.Run();

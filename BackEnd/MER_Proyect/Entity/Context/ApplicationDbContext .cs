@@ -36,16 +36,16 @@ namespace Entity.Context
         /// DB SETS
         ///
         public DbSet<Person> person { get; set; }
-        public DbSet<User> User { get; set; }
+        public DbSet<User> user { get; set; }
         public DbSet<Form> form { get; set; }
-        public DbSet<Module> Module { get; set; }
+        public DbSet<Module> module { get; set; }
 
         public DbSet<rol> rol { get; set; }
-        public DbSet<Permission> Permission { get; set; }
+        public DbSet<Permission> permission { get; set; }
 
-        public DbSet<RolUser> roluser { get; set; }
-        public DbSet<RolFormPermission> rolformpermission { get; set; }
-        public DbSet<FormModule> formmodule { get; set; }
+        public DbSet<RolUser> rol_user { get; set; }
+        public DbSet<RolFormPermission> rol_form_permission { get; set; }
+        public DbSet<FormModule> form_module { get; set; }
 
 
 
@@ -59,7 +59,7 @@ namespace Entity.Context
             modelBuilder.Entity<Person>()
            .HasOne(p => p.User)
            .WithOne(u => u.person)
-           .HasForeignKey<User>(u => u.personid); // Especifica la clave foránea
+           .HasForeignKey<User>(u => u.person_id); // Especifica la clave foránea
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 

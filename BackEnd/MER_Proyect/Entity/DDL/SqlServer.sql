@@ -3,116 +3,116 @@ GO
 USE Piscicontrol;
 GO
 
-CREATE TABLE Module
+CREATE TABLE module
 (
-	[Id] int IDENTITY(1,1) PRIMARY KEY,
-	[Name] Varchar(100) NOT NULL,
-	[Description] varchar(250),
-	CreatedDate DateTime DEFAULT CURRENT_TIMESTAMP,
-	Active bit,
-	IsDeleted bit
+	[id] int IDENTITY(1,1) PRIMARY KEY,
+	[name] Varchar(100) NOT NULL,
+	[description] varchar(250),
+	created_date DateTime DEFAULT CURRENT_TIMESTAMP,
+	active bit,
+	is_deleted bit
 	
 )
 
-CREATE TABLE Form
+CREATE TABLE form
 (
-	[Id] int IDENTITY(1,1) PRIMARY KEY,
-	[Name] varchar(100) NOT NULL,
-	[Description] NVARCHAR(MAX),
-	CreatedDate DateTime DEFAULT CURRENT_TIMESTAMP,
-	Active bit,
-	IsDeleted bit
+	[id] int IDENTITY(1,1) PRIMARY KEY,
+	[name] varchar(100) NOT NULL,
+	[description] NVARCHAR(MAX),
+	created_date DateTime DEFAULT CURRENT_TIMESTAMP,
+	active bit,
+	is_deleted bit
 )
 
-CREATE TABLE Permission 
+CREATE TABLE permission 
 (
-	[Id] INT IDENTITY(1,1) PRIMARY KEY,
-	[Name] varchar(100) NOT NULL,
-	[Description] NVARCHAR(MAX),
-	Active bit,
-	IsDeleted bit
-
-)
-
-CREATE TABLE Rol
-(
-	[Id] INT IDENTITY (1,1) PRIMARY KEY,
-	[Name] varchar(100) NOT NULL,
-	[Description] NVARCHAR(MAX),
-	Active bit,
-	IsDeleted bit
+	[id] INT IDENTITY(1,1) PRIMARY KEY,
+	[name] varchar(100) NOT NULL,
+	[description] NVARCHAR(MAX),
+	active bit,
+	is_deleted bit
 
 )
 
-CREATE TABLE [User]
+CREATE TABLE rol
 (
-	[Id] int IDENTITY(1,1) PRIMARY KEY,
-	UserName VARCHAR(100) NOT NULL,
-	Email VARCHAR(100) NOT NULL UNIQUE, 
-	[Password] VARCHAR(100) NOT NULL,
-	CreatedDate DateTime DEFAULT CURRENT_TIMESTAMP,
-	Active bit,
-	IsDeleted bit,
-	PersonId int 
+	[id] INT IDENTITY (1,1) PRIMARY KEY,
+	[name] varchar(100) NOT NULL,
+	[description] NVARCHAR(MAX),
+	active bit,
+	is_deleted bit
 
 )
-CREATE TABLE Person
+
+CREATE TABLE [user]
 (
-	[Id] int IDENTITY(1,1) PRIMARY KEY,
-	FirstName VARCHAR(100) NOT NULL,
-	LastName VARCHAR(100) NOT NULL, 
-	PhoneNumber VARCHAR(20) NOT NULL,
-	Active bit,
-	IsDeleted bit
+	[id] int IDENTITY(1,1) PRIMARY KEY,
+	user_name VARCHAR(100) NOT NULL,
+	email VARCHAR(100) NOT NULL UNIQUE, 
+	[password] VARCHAR(100) NOT NULL,
+	created_date DateTime DEFAULT CURRENT_TIMESTAMP,
+	active bit,
+	is_deleted bit,
+	person_id int 
+
+)
+CREATE TABLE person
+(
+	[id] int IDENTITY(1,1) PRIMARY KEY,
+	first_name VARCHAR(100) NOT NULL,
+	last_name VARCHAR(100) NOT NULL, 
+	phone_number VARCHAR(20) NOT NULL,
+	active bit,
+	is_deleted bit
 
 
 )
 
 -- Entidades Pivotes
 
-CREATE TABLE FormModule
+CREATE TABLE form_module
 (
-	[Id] int IDENTITY(1,1) PRIMARY KEY,
-	ModuleId int,
-	FormId int,
-	IsDeleted bit
+	[id] int IDENTITY(1,1) PRIMARY KEY,
+	module_id int,
+	form_id int,
+	is_deleted bit
 
 
 )
 
-CREATE TABLE RolFormPermission 
+CREATE TABLE rol_form_permission 
 (
-	[Id] INT IDENTITY(1,1) PRIMARY KEY,
-	RolId INT,
-	FormId INT, 
-	PermissionID INT,
-	IsDeleted bit
+	[id] INT IDENTITY(1,1) PRIMARY KEY,
+	rol_id INT,
+	form_id INT, 
+	permission_id INT,
+	is_deleted bit
 
 )
 
-CREATE TABLE RolUser
+CREATE TABLE rol_user
 (
-	[Id] int IDENTITY(1,1) PRIMARY KEY,
-	RolId int,
-	UserId int,
-	IsDeleted bit
+	[id] int IDENTITY(1,1) PRIMARY KEY,
+	rol_id int,
+	user_id int,
+	is_deleted bit
 
 ) 
 -- Agregar Relaciones por medio de ALTER TABLE
 
--- FormModule
-ALTER TABLE FormModule ADD CONSTRAINT FK_FormModule_Module FOREIGN KEY (ModuleId) REFERENCES Module(Id);
-ALTER TABLE FormModule ADD CONSTRAINT FK_FormModule_Form FOREIGN KEY (FormId) REFERENCES Form(id);
+-- form_module
+ALTER TABLE form_module ADD CONSTRAINT FK_FormModule_Module FOREIGN KEY (module_id) REFERENCES module(id);
+ALTER TABLE form_module ADD CONSTRAINT FK_FormModule_Form FOREIGN KEY (form_id) REFERENCES form(id);
 
--- RolFormPermission 
-ALTER TABLE RolFormPermission ADD CONSTRAINT FK_RolFormPermission_Rol FOREIGN KEY (RolId) REFERENCES Rol(Id);
-ALTER TABLE RolFormPermission ADD CONSTRAINT FK_RolFormPermission_Form FOREIGN KEY (FormId) REFERENCES Form(Id);
-ALTER TABLE RolFormPermission ADD CONSTRAINT FK_RolFormPermission_Permission FOREIGN KEY (PermissionId) REFERENCES Permission(Id)
+-- rol_form_permission 
+ALTER TABLE rol_form_permission ADD CONSTRAINT FK_RolFormPermission_Rol FOREIGN KEY (rol_id) REFERENCES rol(id);
+ALTER TABLE rol_form_permission ADD CONSTRAINT FK_RolFormPermission_Form FOREIGN KEY (form_id) REFERENCES form(id);
+ALTER TABLE rol_form_permission ADD CONSTRAINT FK_RolFormPermission_Permission FOREIGN KEY (permission_id) REFERENCES permission(id)
 
--- RolUser
+-- rol_user
 
-ALTER TABLE RolUser ADD CONSTRAINT FK_RolUser_Rol FOREIGN KEY (RolId) REFERENCES Rol(Id);
-ALTER TABLE RolUser ADD CONSTRAINT FK_RolUser_User FOREIGN KEY (UserId) REFERENCES [User](Id);
+ALTER TABLE rol_user ADD CONSTRAINT FK_RolUser_Rol FOREIGN KEY (rol_id) REFERENCES rol(id);
+ALTER TABLE rol_user ADD CONSTRAINT FK_RolUser_User FOREIGN KEY (user_id) REFERENCES [user](id);
 
 -- User 
-ALTER TABLE [User] ADD CONSTRAINT FK_User_Person FOREIGN KEY (PersonId) REFERENCES Person(Id) -- Relacion Uno a Uno
+ALTER TABLE [user] ADD CONSTRAINT FK_User_Person FOREIGN KEY (person_id) REFERENCES person(id) -- Relacion Uno a Uno

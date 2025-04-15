@@ -15,7 +15,7 @@ namespace Entity.Model
         //public DateTime? createddate { get; set; } = DateTime.UtcNow;
 
         public bool active { get; set; }
-        public bool isdeleted { get; set; }
+        public bool is_deleted { get; set; }
 
         public virtual ICollection<FormModule> FormModules { get; set; } = new List<FormModule>();
         public virtual ICollection<RolFormPermission> RolFormPermission { get; set; } = new List<RolFormPermission>();

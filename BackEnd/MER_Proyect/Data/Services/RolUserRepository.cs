@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Services
 {
-    public class RolUserRepository : Repository<RolUser>
+    public class RolUserRepository : DataGeneric<RolUser>
     {
         public RolUserRepository(ApplicationDbContext context) : base(context)
         {
@@ -26,7 +26,7 @@ namespace Data.Services
                     Id = ru.id,
                     UserId = ru.userid,
                     RolId = ru.rolid,
-                    UserName = ru.User.username,
+                    UserName = ru.User.user_name,
                     RolName = ru.Rol.name
                 })
                 .ToListAsync();

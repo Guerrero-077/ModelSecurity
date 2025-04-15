@@ -1302,7 +1302,6 @@ C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0
 C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\Web.dll
 C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\Web.pdb
 C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\MER_Proyect\Web\bin\Debug\net8.0\Dapper.dll

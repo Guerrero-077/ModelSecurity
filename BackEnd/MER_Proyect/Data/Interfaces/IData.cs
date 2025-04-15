@@ -10,7 +10,7 @@ namespace Data.Interfaces
     /// Define operaciones genéricas de acceso a datos para cualquier entidad.
     /// </summary>
     /// <typeparam name="T">Tipo de entidad.</typeparam>
-    public interface IRepository<T> where T : class
+    public interface IData<T> where T : class
     {
         /// <summary>
         /// Obtiene todos los registros almacenados en la base de datos.
@@ -52,5 +52,7 @@ namespace Data.Interfaces
         /// <param name="id">Identificador único de la entidad a eliminar.</param>
         /// <returns>True si la eliminación fue exitosa, False en caso contrario.</returns>
         Task<bool> DeleteAsync(int id);
+
+        Task<bool> RestoreLogicalAsync(int id);
     }
 }

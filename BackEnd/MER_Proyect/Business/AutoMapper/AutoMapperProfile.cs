@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+using Entity.DTOs.Select;
 using Entity.Model;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using AutoMapper;
 
 namespace Entity.DTOs
 {
@@ -29,26 +24,31 @@ namespace Entity.DTOs
             CreateMap<Permission, PermissionDto>();
             CreateMap<PermissionDto, Permission>();
 
-            CreateMap<Person, PersonDto>();
+
+            // Para mostrar datos
+            CreateMap<Person, PersonSelectDto>()
+                .ForMember(dest => dest.full_name,
+                   opt => opt.MapFrom(src => $"{src.first_name} {src.last_name}"));
+
+            // Para crear o actualizar  
             CreateMap<PersonDto, Person>();
+            CreateMap<Person, PersonDto>();
+
 
 
             CreateMap<rol, rolDto>();
             CreateMap<rolDto, rol>();
 
-            CreateMap<RolFormPermission, RolFormPermissionDto>()
-                .ForMember(dest => dest.FormName, opt => opt.MapFrom(src => src.Form.name))
-                .ForMember(dest => dest.RolName, opt => opt.MapFrom(src => src.Rol.name))
-                .ForMember(dest => dest.PermissionName, opt => opt.MapFrom(src => src.Permission.name));
+            CreateMap<RolFormPermission, RolFormPermissionDto>();
             CreateMap<RolFormPermissionDto, RolFormPermission>();
 
             //CreateMap<RolUser, RolUserDto>();
 
-            CreateMap<RolUser, RolUserDto>()
-                        .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.username))
-                        .ForMember(dest => dest.RolName, opt => opt.MapFrom(src => src.Rol.name));
-
+            CreateMap<RolUser, RolUserDto>();
             CreateMap<RolUserDto, RolUser>();
+
+            CreateMap<User, UserSelectDto>()
+                .ForMember(dest => dest.Name_Person, opt => opt.MapFrom(src => src.person.first_name + " " + src.person.last_name));
 
             CreateMap<User, UserDto>();
             CreateMap<UserDto, User>();

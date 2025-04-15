@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Services
 {
-    public class FormModuleRepository : Repository<FormModule>
+    public class FormModuleRepository : DataGeneric<FormModule>
     {
         public FormModuleRepository(ApplicationDbContext context) : base(context)
         {

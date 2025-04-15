@@ -1,125 +1,125 @@
--- CREATE TABLE `User`
+ --CREATE TABLE `user`
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     UserName VARCHAR(100) NOT NULL,
---     Email VARCHAR(100) NOT NULL UNIQUE, 
---     Password VARCHAR(100) NOT NULL,
---     CreateDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
---     Active BOOLEAN,
---     IsDeleted BOOLEAN,
---     PersonId INT 
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     user_name VARCHAR(100) NOT NULL,
+--     email VARCHAR(100) NOT NULL UNIQUE, 
+--     password VARCHAR(100) NOT NULL,
+--     create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     active BOOLEAN,
+--     is_deleted BOOLEAN,
+--     person_id INT 
 -- );
 -- 
--- CREATE TABLE Person 
+-- CREATE TABLE person 
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     FirstName VARCHAR(100) NOT NULL,
---     LastName VARCHAR(100) NOT NULL,
---     PhoneNumber VARCHAR(20) NOT NULL,
---     Active BOOLEAN,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     first_name VARCHAR(100) NOT NULL,
+--     last_name VARCHAR(100) NOT NULL,
+--     phone_number VARCHAR(20) NOT NULL,
+--     active BOOLEAN,
+--     is_deleted BOOLEAN
 -- );
 -- 
 -- CREATE TABLE Rol 
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     Name VARCHAR(100) NOT NULL,
---     Description TEXT,
---     Active BOOLEAN,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     name VARCHAR(100) NOT NULL,
+--     description TEXT,
+--     active BOOLEAN,
+--     is_deleted BOOLEAN
 -- );
 -- 
--- CREATE TABLE RolUser
+-- CREATE TABLE rol_user
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     RolId INT,
---     UserId INT,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     rol_id INT,
+--     user_id INT,
+--     is_deleted BOOLEAN
 -- );
 -- 
--- CREATE TABLE Permission
+-- CREATE TABLE permission
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     Name VARCHAR(100) NOT NULL,
---     Description TEXT,
---     Active BOOLEAN,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     name VARCHAR(100) NOT NULL,
+--     description TEXT,
+--     active BOOLEAN,
+--     is_deleted BOOLEAN
 -- );
 -- 
--- CREATE TABLE Form 
+-- CREATE TABLE form 
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     Name VARCHAR(100) NOT NULL,
---     Description TEXT,
---     CreatedDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
---     Active BOOLEAN,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     name VARCHAR(100) NOT NULL,
+--     description TEXT,
+--     created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     active BOOLEAN,
+--     is_deleted BOOLEAN
 -- );
 -- 
--- CREATE TABLE FormModule
+-- CREATE TABLE form_module
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     FormId INT,
---     ModuleId INT,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     form_id INT,
+--     module_id INT,
+--     is_deleted BOOLEAN
 -- );
 -- 
--- CREATE TABLE RolFormPermission
+-- CREATE TABLE rol_form_permission
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     RolId INT,
---     FormId INT,
---     PermissionId INT,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     rol_id INT,
+--     form_id INT,
+--     permission_id INT,
+--     is_deleted BOOLEAN
 -- );
 -- 
--- CREATE TABLE Module
+-- CREATE TABLE module
 -- (
---     Id INT PRIMARY KEY AUTO_INCREMENT,
---     Name VARCHAR(100) NOT NULL,
---     Description TEXT, 
---     CreatedDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
---     Active BOOLEAN,
---     IsDeleted BOOLEAN
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     name VARCHAR(100) NOT NULL,
+--     description TEXT, 
+--     created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     active BOOLEAN,
+--     is_deleted BOOLEAN
 -- );
 -- 
 -- -- Relaciones 
 -- 
 -- 
--- -- User  - Person
--- ALTER TABLE `User` 
+-- -- user  - person
+-- ALTER TABLE `user` 
 -- ADD CONSTRAINT FK_User_Person 
--- FOREIGN KEY (PersonId) REFERENCES Person(Id);
+-- FOREIGN KEY (person_id) REFERENCES person(id);
 -- 
--- -- RolUser - Rol - User
--- ALTER TABLE RolUser
+-- -- RolUser - Rol - user
+-- ALTER TABLE rol_user
 -- ADD CONSTRAINT FK_RolUser_Rol 
--- FOREIGN KEY (RolId) REFERENCES Rol(Id);
+-- FOREIGN KEY (rol_id) REFERENCES rol(id);
 -- 
--- ALTER TABLE RolUser 
+-- ALTER TABLE rol_user 
 -- ADD CONSTRAINT FK_RolUser_User
--- FOREIGN KEY (UserId) REFERENCES `User`(Id);
+-- FOREIGN KEY (user_id) REFERENCES `user`(id);
 -- 
--- -- FormModule - Form - Module
+-- -- form_module - form - module
 -- 
--- ALTER TABLE FormModule 
+-- ALTER TABLE form_module 
 -- ADD CONSTRAINT FK_FormModule 
--- FOREIGN KEY (FormId) REFERENCES Form(Id);
+-- FOREIGN KEY (form_id) REFERENCES form(id);
 -- 
--- ALTER TABLE FormModule 
+-- ALTER TABLE form_module 
 -- ADD CONSTRAINT FK_FormModule_Module 
--- FOREIGN KEY (ModuleId) REFERENCES Module(Id);
+-- FOREIGN KEY (module_id) REFERENCES module(id);
 -- 
--- -- RolFormPermission - Rol - Form - Permission
--- ALTER TABLE RolFormPermission 
+-- -- rol_form_permission - Rol - form - permission
+-- ALTER TABLE rol_form_permission 
 -- ADD CONSTRAINT FK_RolFormPermission_Rol 
--- FOREIGN KEY (RolId) REFERENCES Rol(Id);
+-- FOREIGN KEY (rol_id) REFERENCES Rol(id);
 -- 
--- ALTER TABLE RolFormPermission 
+-- ALTER TABLE rol_form_permission 
 -- ADD CONSTRAINT FK_RolFormPermission_Form
--- FOREIGN KEY (FormId) REFERENCES Form(Id);
+-- FOREIGN KEY (form_id) REFERENCES form(id);
 -- 
--- ALTER TABLE RolFormPermission 
+-- ALTER TABLE rol_form_permission 
 -- ADD CONSTRAINT FK_RolFormPermission
--- FOREIGN KEY (PermissionId) REFERENCES Permission(Id);
+-- FOREIGN KEY (permission_id) REFERENCES permission(id);
 

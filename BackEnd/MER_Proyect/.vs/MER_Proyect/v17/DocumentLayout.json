@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\controllers\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\business\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\data\\services\\roluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\services\\roluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\entity\\model\\rolformpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\model\\rolformpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\controllers\\rolusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09E1EC4E-445D-44C1-A897-59758E8C6540}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\data\\repository\\datageneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\repository\\datageneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\FormModuleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Services\\FormModuleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\data\\interfaces\\idata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3865FF69-7A12-433C-9745-BC47EE60C7CF}|Data\\Data.csproj|solutionrelative:data\\interfaces\\idata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\RolFormPermissionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Services\\RolFormPermissionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\entity\\dtos\\delete\\deleteuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467874F7-1E9B-4A7E-B160-A9E41BB251BF}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\delete\\deleteuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|c:\\users\\guerrero\\desktop\\modelsecurity\\backend\\mer_proyect\\business\\interfaces\\ibusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D301ADB2-597E-436E-B9B5-C1BF5713EB77}|Business\\Business.csproj|solutionrelative:business\\interfaces\\ibusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,111 +55,132 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormModuleController.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\FormModuleController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\FormModuleController.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\FormModuleController.cs",
-              "RelativeToolTip": "Web\\Controllers\\FormModuleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAAJAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Services\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T19:35:24.766Z",
+              "WhenOpened": "2025-04-15T14:43:29.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RolService.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Services\\RolService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\RolService.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Services\\RolService.cs",
+              "RelativeToolTip": "Business\\Services\\RolService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:35:37.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolController.cs",
+              "RelativeToolTip": "Web\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:33:58.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolUserController.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\RolUserController.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\RolUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:33:40.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IData.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Interfaces\\IData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IData.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Interfaces\\IData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IData.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T05:05:17.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Repository\\DataGeneric.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\DataGeneric.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Repository\\DataGeneric.cs",
+              "RelativeToolTip": "Data\\Repository\\DataGeneric.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T05:02:02.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Entity\\DTOs\\Delete\\DeleteUserRequest.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Delete\\DeleteUserRequest.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Entity\\DTOs\\Delete\\DeleteUserRequest.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Delete\\DeleteUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:48:32.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Interfaces\\IBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IBusiness.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Interfaces\\IBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:44:33.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RolFormPermissionController.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolFormPermissionController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\RolFormPermissionController.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\RolFormPermissionController.cs",
-              "RelativeToolTip": "Web\\Controllers\\RolFormPermissionController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "BusinessGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Repository\\BusinessGeneric.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\BusinessGeneric.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Business\\Repository\\BusinessGeneric.cs",
+              "RelativeToolTip": "Business\\Repository\\BusinessGeneric.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwv0EAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T19:35:16.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RolUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\RolUserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\RolUserRepository.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\RolUserRepository.cs",
-              "RelativeToolTip": "Data\\Services\\RolUserRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:54:30.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormModuleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\FormModuleRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\FormModuleRepository.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\FormModuleRepository.cs",
-              "RelativeToolTip": "Data\\Services\\FormModuleRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:52:43.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RolFormPermissionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\RolFormPermissionRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\RolFormPermissionRepository.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Data\\Services\\RolFormPermissionRepository.cs",
-              "RelativeToolTip": "Data\\Services\\RolFormPermissionRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAjwB4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:45:18.248Z"
+              "WhenOpened": "2025-04-15T04:42:01.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "Web\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\AutoMapperProfile.cs",
-              "RelativeToolTip": "Web\\AutoMapperProfile.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDAAAABiAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAwAEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:44:51.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RolFormPermission.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Entity\\Model\\RolFormPermission.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\RolFormPermission.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Entity\\Model\\RolFormPermission.cs",
-              "RelativeToolTip": "Entity\\Model\\RolFormPermission.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:44:28.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\appsettings.json",
-              "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-10T18:43:25.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\MER_Proyect\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:43:15.959Z"
+              "WhenOpened": "2025-04-15T04:41:00.633Z",
+              "EditorCaption": ""
             }
           ]
         }

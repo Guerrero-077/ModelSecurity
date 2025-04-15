@@ -1,22 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Data.Interfaces;
+﻿using Data.Interfaces;
 using Entity.Context;
-using Entity.Model;
 using Microsoft.EntityFrameworkCore;
-using static Dapper.SqlMapper;
 
 namespace Data.Services
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public class DataGeneric<T> : IData<T> where T : class
     {
         protected readonly ApplicationDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public Repository(ApplicationDbContext context)
+        public DataGeneric(ApplicationDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();
@@ -25,25 +18,31 @@ namespace Data.Services
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await _dbSet
-                .Where(e => EF.Property<bool>(e, "isdeleted") == false)
+                .Where(e => EF.Property<bool>(e, "is_deleted") == false)
                 .ToListAsync();
         }
+
+        //public async Task<T?> GetByIdAsync(int id)
+        //{
+        //    var entity = await _dbSet.FindAsync(id);
+        //    if (entity == null)
+        //        return null;
+
+        //    var isDeleted = (bool?)entity.GetType().GetProperty("is_deleted")?.GetValue(entity);
+
+        //    return isDeleted == false ? entity : null;
+        //}
 
         public async Task<T?> GetByIdAsync(int id)
         {
             var entity = await _dbSet.FindAsync(id);
-            if (entity == null)
-                return null;
-
-            var isDeleted = (bool?)entity.GetType().GetProperty("isdeleted")?.GetValue(entity);
-
-            return isDeleted == false ? entity : null;
+            return entity;  // No verificamos si "is_deleted" es true o false aquí
         }
 
 
         public async Task<T> CreateAsync(T entity)
         {
-            entity.GetType().GetProperty("isdeleted")?.SetValue(entity, false);
+            entity.GetType().GetProperty("is_deleted")?.SetValue(entity, false);
 
             _dbSet.Add(entity);
             await _context.SaveChangesAsync();
@@ -68,11 +67,31 @@ namespace Data.Services
             var entity = await _dbSet.FindAsync(id); 
             if (entity == null) 
                 return false; 
-            entity.GetType().GetProperty("isdeleted")?.SetValue(entity, true); 
+            entity.GetType().GetProperty("is_deleted")?.SetValue(entity, true); 
             _context.Entry(entity).State = EntityState.Modified; 
             await _context.SaveChangesAsync(); 
             return true; 
         }
+
+        public async Task<bool> RestoreLogicalAsync(int id)
+        {
+            var entity = await _dbSet.FindAsync(id);
+            if (entity == null)
+                return false;
+
+            var isDeleted = (bool?)entity.GetType().GetProperty("is_deleted")?.GetValue(entity);
+
+            // Si ya está desmarcado como eliminado, no hay nada que hacer
+            if (isDeleted == false)
+                return false;
+
+            entity.GetType().GetProperty("is_deleted")?.SetValue(entity, false);
+            _context.Entry(entity).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+
 
     }
 }

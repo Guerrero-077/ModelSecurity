@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Services
 {
-    public class RolFormPermissionRepository : Repository<RolFormPermission>
+    public class RolFormPermissionRepository : DataGeneric<RolFormPermission>
     {
         public RolFormPermissionRepository(ApplicationDbContext context) : base(context)
         {
