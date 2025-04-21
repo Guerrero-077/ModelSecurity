@@ -1,0 +1,12 @@
+.menu-component{
+    background-color: rgb(26, 28, 35, 1);
+
+}
+
+.menu-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.label{
+    color: white;
+}
