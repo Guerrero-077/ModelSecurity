@@ -1,0 +1,60 @@
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\NITRO\Documentos\Intento\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\GUERRERO\Desktop\Modelo\BackEnd (2)\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\GUERRERO\Desktop\ModelSecurity\BackEnd\BackEnd\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
