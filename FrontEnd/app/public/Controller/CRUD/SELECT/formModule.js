@@ -1,4 +1,4 @@
-const apiUrl = 'https://localhost:44329/api/formModule'; // Cambia por tu endpoint real
+const apiUrl = 'https://localhost:7294/api/formModule'; // Cambia por tu endpoint real
 let idActual = null; // Para saber si estamos editando
 
 const swalWithBootstrapButtons = Swal.mixin({

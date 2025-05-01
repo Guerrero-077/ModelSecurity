@@ -30,43 +30,45 @@ import { LoginComponent } from './components/login/login/login.component';
 import { ListDeletesComponent } from './components/form/list-deletes/list-deletes.component';
 
 export const routes: Routes = [
-    { path: '', component: LoginComponent},
-
-    {path: 'person', component: ListPersonComponent},
-    { path: 'person/create', component: CreatePersonComponent},
-    { path: 'person/update/:id', component: EditPersonComponent},
-
-    {path: 'rol', component: ListRolComponent},
-    {path: 'rol/create', component: CreateRolComponent},
-    {path: 'rol/update/:id', component: EditRolComponent},
-
-    {path: 'form', component: FormListComponent},
-    {path: 'form/create', component: CreateFormComponent},
-    {path: 'form/update/:id', component: EditFormComponent},
-    {path: 'form/listDetele', component: ListDeletesComponent},
+    { path: '', redirectTo: 'login', pathMatch: 'full' },
+    {path: 'login', component: LoginComponent},
 
 
-    {path: 'module', component: ListMuduleComponent},
-    {path: 'module/create', component: CreateMuduleComponent},
-    {path: 'module/update/:id', component: EditModuleComponent},
+    { path: 'person', component: ListPersonComponent },
+    { path: 'person/create', component: CreatePersonComponent },
+    { path: 'person/update/:id', component: EditPersonComponent },
 
-    {path: 'user', component: ListUserComponent},
-    {path: 'user/create', component: CreateUserComponent},
-    {path: 'user/update/:id', component: EditUserComponent},
+    { path: 'rol', component: ListRolComponent },
+    { path: 'rol/create', component: CreateRolComponent },
+    { path: 'rol/update/:id', component: EditRolComponent },
 
-    {path: 'permission', component: ListPermissionComponent},
-    {path: 'permission/create', component: CreatePermissionComponent},
-    {path: 'permission/update/:id', component: EditPermissionComponent},
+    { path: 'form', component: FormListComponent },
+    { path: 'form/create', component: CreateFormComponent },
+    { path: 'form/update/:id', component: EditFormComponent },
+    { path: 'form/listDetele', component: ListDeletesComponent },
 
-    {path: 'rolFormPermission', component: ListRolFormPermissionComponent},
-    {path: 'rolFormPermission/create', component: CreateRolFormPermissionComponent},
-    {path: 'rolFormPermission/update/:id', component: EditRolFormPermissionComponent},
 
-    {path: 'rolUser', component: ListRolUserComponent},
-    {path: 'rolUser/create', component: CreateRolUserComponent},
-    {path: 'rolUser/update/:id', component: EditRolUserComponent},
+    { path: 'module', component: ListMuduleComponent },
+    { path: 'module/create', component: CreateMuduleComponent },
+    { path: 'module/update/:id', component: EditModuleComponent },
 
-    {path: 'formModule', component: ListFormModuleComponent},
-    {path: 'formModule/create', component: CreateFormModuleComponent},
-    {path: 'formModule/update/:id', component: EditFormModuleComponent},
+    { path: 'user', component: ListUserComponent },
+    { path: 'user/create', component: CreateUserComponent },
+    { path: 'user/update/:id', component: EditUserComponent },
+
+    { path: 'permission', component: ListPermissionComponent },
+    { path: 'permission/create', component: CreatePermissionComponent },
+    { path: 'permission/update/:id', component: EditPermissionComponent },
+
+    { path: 'rolFormPermission', component: ListRolFormPermissionComponent },
+    { path: 'rolFormPermission/create', component: CreateRolFormPermissionComponent },
+    { path: 'rolFormPermission/update/:id', component: EditRolFormPermissionComponent },
+
+    { path: 'rolUser', component: ListRolUserComponent },
+    { path: 'rolUser/create', component: CreateRolUserComponent },
+    { path: 'rolUser/update/:id', component: EditRolUserComponent },
+
+    { path: 'formModule', component: ListFormModuleComponent },
+    { path: 'formModule/create', component: CreateFormModuleComponent },
+    { path: 'formModule/update/:id', component: EditFormModuleComponent },
 ];

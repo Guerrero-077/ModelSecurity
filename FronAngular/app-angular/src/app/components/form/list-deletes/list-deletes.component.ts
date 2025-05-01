@@ -41,8 +41,8 @@ export class ListDeletesComponent {
 
   displayedColumns: string[] = [];
 
-  restore(id: number, nulo:[]){
-    this.formService.logicalRestore(id, nulo).subscribe(()=>{
+  restore(id: number) {
+    this.formService.logicalRestore(id).subscribe(() => {
       console.log("Se restauro");
       this.load();
     })

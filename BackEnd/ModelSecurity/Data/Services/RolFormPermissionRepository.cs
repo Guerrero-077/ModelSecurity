@@ -8,10 +8,16 @@ namespace Data.Services
 {
     public class RolFormPermissionRepository : DataGeneric<RolFormPermission>, IRolFormPermissionRepository
     {
-        public RolFormPermissionRepository(ApplicationDbContext context) : base(context) { }
+        protected readonly ApplicationDbContext _context;
+        public RolFormPermissionRepository(ApplicationDbContext context) : base(context) 
+        {
+            _context = context;
+
+        }
+
         public async Task<IEnumerable<RolFormPermission>> GetAllJoinAsync()
         {
-            return await _dbSet
+            return await _context.Set<RolFormPermission>()
                 .Include(u => u.rol)
                 .Include(u => u.form)
                 .Include(u => u.permission)
@@ -21,7 +27,7 @@ namespace Data.Services
 
         public async Task<RolFormPermission?> GetByIdJoinAsync(int id)
         {
-            return await _dbSet
+            return await _context.Set<RolFormPermission>()
                 .Include(u => u.rol)
                 .Include(u => u.form)
                 .Include(u => u.permission)

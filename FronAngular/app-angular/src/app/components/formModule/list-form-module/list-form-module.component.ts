@@ -25,4 +25,11 @@ export class ListFormModuleComponent {
       this.formModules = formModules;
     });
   }
+
+  deleteLogic(id: number) {
+    this.formModuleServices.logicalDelete(id).subscribe(() => {
+      console.log("Se elimino Logicamnete")
+      this.getAll();
+    })
+  }
 }

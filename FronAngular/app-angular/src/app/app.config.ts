@@ -15,9 +15,6 @@ export const appConfig: ApplicationConfig = {
     // Usa withInterceptors() para pasar un array de interceptores funcionales
     withInterceptors([
       interceptorInterceptor, // Registra tu interceptor funcional aquí
-      // Si tuvieras más interceptores funcionales, los añades aquí:
-      // loggingInterceptorFn,
-      // cachingInterceptorFn,
     ])
   ),
   ]

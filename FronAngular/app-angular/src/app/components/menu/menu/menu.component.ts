@@ -12,7 +12,5 @@ import { RouterLink } from '@angular/router';
 export class MenuComponent {
   clearLocalStorage() {
     localStorage.clear();
-
-    // Opcionalmente podrías usar un servicio de notificación en lugar de alert
   }
 }

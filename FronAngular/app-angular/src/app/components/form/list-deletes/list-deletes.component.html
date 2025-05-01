@@ -1,5 +1,5 @@
 <button mat-button color="" routerLink="../">Volver</button>
-<table mat-table [dataSource]="forms" class="mat-elevation-z8">
+<table mat-table [dataSource]="forms" class="mat-elevation-z8 lista">
     <ng-container matColumnDef="name">
         <th mat-header-cell *matHeaderCellDef> Name </th>
         <td mat-cell *matCellDef="let element"> {{element.name}} </td>
@@ -15,7 +15,7 @@
     <ng-container matColumnDef="actions">
         <th mat-header-cell *matHeaderCellDef> Acciones </th>
         <td mat-cell *matCellDef="let element">
-            <button mat-button color="" (click)="restore(element.id,[])">Restaurar</button>
+            <button mat-button  (click)="restore(element.id)">Restaurar</button>
 
         </td>
     </ng-container>

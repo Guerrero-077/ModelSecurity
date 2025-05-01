@@ -34,8 +34,8 @@ export class UserService {
     return this.http.delete(`${this.URLBase}/${id}`);
   }
 
-  public logicalDelete(id: number, rol:[]): Observable<any> {
-    return this.http.patch(`${this.URLBase}/logical-delete/${id}`, rol);
+  public logicalDelete(id: number): Observable<any> {
+    return this.http.patch(`${this.URLBase}/logical-delete/${id}`, {});
   }
 
   public logicalRestore(id: number): Observable<any> {

@@ -25,4 +25,11 @@ export class ListRolFormPermissionComponent {
       this.rolFormPermissions = rolFormPermissions;
     });
   }
+
+  public DeleteLogical(id: number) {
+    this.rolFormPermissionService.logicalDelete(id).subscribe(() => {
+      console.log("Eliminado Logicamente");
+      this.getAll();
+    })
+  }
 }

@@ -26,8 +26,8 @@ export class ListUserComponent {
     });
   }
 
-  deleteLogic(id: number, nul: []) {
-    this.userServices.logicalDelete(id, nul).subscribe(() => {
+  deleteLogic(id: number) {
+    this.userServices.logicalDelete(id).subscribe(() => {
       console.log("Se elimino Logicamnete")
       this.getAll();
     })

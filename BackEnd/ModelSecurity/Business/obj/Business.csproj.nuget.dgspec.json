@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {}
+    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {
+    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\GUERRERO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\obj\\",
+        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
+        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\GUERRERO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\braya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj"
+              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
+                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj"
               },
-              "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
+              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj"
+              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -85,20 +85,20 @@
         }
       }
     },
-    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
+    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\GUERRERO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\obj\\",
+        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
+        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\GUERRERO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\braya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
+              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
               }
             }
           }
@@ -162,20 +162,20 @@
         }
       }
     },
-    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
+        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\GUERRERO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\obj\\",
+        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
+        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\GUERRERO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\braya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,20 +261,20 @@
         }
       }
     },
-    "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
+    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\GUERRERO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GUERRERO\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\obj\\",
+        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
+        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\GUERRERO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\braya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

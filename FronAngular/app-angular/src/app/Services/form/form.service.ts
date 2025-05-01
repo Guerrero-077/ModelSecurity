@@ -36,12 +36,12 @@ export class FormService {
     return this.http.delete(`${this.URLBase}/${id}`);
   }
 
-  public logicalDelete(id: number, nulo: []): Observable<any> {
-    return this.http.patch(`${this.URLBase}/logical-delete/${id}`, nulo);
+  public logicalDelete(id: number): Observable<any> {
+    return this.http.patch(`${this.URLBase}/logical-delete/${id}`, {});
   }
 
-  public logicalRestore(id: number, nulo:[]): Observable<any> {
-    return this.http.patch(`${this.URLBase}/logical-restore/${id}`, nulo);
+  public logicalRestore(id: number): Observable<any> {
+    return this.http.patch(`${this.URLBase}/logical-restore/${id}`, {});
   }
 
   constructor() { }

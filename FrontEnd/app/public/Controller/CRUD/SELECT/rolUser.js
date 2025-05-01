@@ -1,4 +1,4 @@
-const apiUrl = 'https://localhost:44329/api/rolUser';
+const apiUrl = 'https://localhost:7294/api/rolUser';
 let idActual = null;
 
 const swalWithBootstrapButtons = Swal.mixin({

@@ -25,4 +25,12 @@ export class ListRolUserComponent {
       this.rolUsers = rolUsers;
     });
   }
+
+  public DeleteLogical(id: number){
+    this.rolUserServices.logicalDelete(id).subscribe(()=>{
+      console.log("Eliminado Correctamente");
+      this.getAll();
+      
+    })
+  }
 }

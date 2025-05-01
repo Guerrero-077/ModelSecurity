@@ -25,4 +25,12 @@ export class ListMuduleComponent {
       this.modules = modules;
     });
   }
+
+  public DeleteLogical(id: number) {
+    this.moduleServices.logicalDelete(id).subscribe(() => {
+      console.log("Eliminado Logicamente");
+      this.getAll();
+
+    })
+  }
 }

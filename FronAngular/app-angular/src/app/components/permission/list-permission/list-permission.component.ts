@@ -25,4 +25,12 @@ export class ListPermissionComponent {
       this.permissions = permissions;
     });
   }
+
+  public DeleteLogical(id: number){
+    this.permissionServices.logicalDelete(id).subscribe(()=>{
+      console.log("Eliminado logicamente");
+      this.getAll();
+      
+    })
+  }
 }

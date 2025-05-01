@@ -8,13 +8,15 @@ namespace Data.Services
 {
     public class RolUserRepository : DataGeneric<RolUser>, IRolUserRepository
     {
+        protected readonly ApplicationDbContext _context;
         public RolUserRepository(ApplicationDbContext context) : base(context)
         {
+            _context = context;
         }
 
         public async Task<IEnumerable<RolUser>> GetAllJoinAsync()
         {
-            return await _dbSet
+            return await _context.Set<RolUser>()
                  .Include(u => u.rol)
                  .Include(u => u.user)
                  .Where(u => !u.is_deleted)
@@ -23,7 +25,7 @@ namespace Data.Services
 
         public async Task<RolUser?> GetByIdJoinAsync(int id)
         {
-            return await _dbSet
+            return await _context.Set<RolUser>()
                .Include(u => u.rol)
                .Include(u => u.user)
                .Where(u => !u.is_deleted && u.id == id)

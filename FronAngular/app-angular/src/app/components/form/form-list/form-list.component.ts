@@ -34,8 +34,8 @@ export class FormListComponent {
     });
   }
 
-  deleteLogic(id: number, nul: []) {
-    this.formServices.logicalDelete(id, nul).subscribe(() => {
+  deleteLogic(id: number) {
+    this.formServices.logicalDelete(id).subscribe(() => {
       console.log("Se elimino Logicamnete")
       this.getAll();
     })

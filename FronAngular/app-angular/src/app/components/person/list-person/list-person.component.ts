@@ -25,4 +25,12 @@ export class ListPersonComponent {
       this.persons = persons;
     });
   }
+
+  public DeleteLogical(id: number) {
+    this.personService.logicalDelete(id).subscribe(() => {
+      console.log("Eliminado logicamente");
+      this.getAll();
+
+    })
+  }
 }

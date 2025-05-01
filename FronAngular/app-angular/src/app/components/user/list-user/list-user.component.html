@@ -3,7 +3,7 @@
 
 @if (users) {
 
-<table mat-table [dataSource]="users" class="mat-elevation-z8 lista">
+<table mat-table [dataSource]="users" class="mat-elevation-z8 lista     ">
     <ng-container matColumnDef="user_name">
         <th mat-header-cell *matHeaderCellDef>Name user</th>
         <td mat-cell *matCellDef="let user">
@@ -29,8 +29,8 @@
         <th mat-header-cell *matHeaderCellDef>Action</th>
         <td mat-cell *matCellDef="let form">
             <a mat-flat-button routerLink="/user/update/{{form.id}}">Edit</a>
-            <button mat-button color="warn"(click)="deleteLogic(form.id,[])">Eliminar Logico</button>
             <button mat-flat-button color="warn">Delete</button>
+            <button mat-stroked-button color="warn"(click)="deleteLogic(form.id)">Eliminar Logico</button>
 
         </td>
     </ng-container>

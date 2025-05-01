@@ -8,13 +8,15 @@ namespace Data.Services
 {
     public class FormModuleRepository : DataGeneric<FormModule>, IFormModuleRepository
     {
+        protected readonly ApplicationDbContext _context;
         public FormModuleRepository(ApplicationDbContext context) : base(context)
         {
+            _context = context;
         }
 
         public async Task<IEnumerable<FormModule>> GetAllJoinAsync()
         {
-            return await _dbSet
+            return await _context.Set<FormModule>()
                        .Include(u => u.form)
                        .Include(u => u.module)
                        .Where(u => !u.is_deleted)
@@ -23,7 +25,7 @@ namespace Data.Services
 
         public async Task<FormModule?> GetByIdJoinAsync(int id)
         {
-            return await _dbSet
+            return await _context.Set<FormModule>()
                         .Include(u => u.form)
                         .Include(u => u.module)
                         .Where(u => !u.is_deleted && u.id == id)
