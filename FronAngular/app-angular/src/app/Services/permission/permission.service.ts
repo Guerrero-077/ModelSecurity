@@ -31,6 +31,12 @@ export class PermissionService {
     return this.http.delete(`${this.URLBase}/${id}`);
   }
 
+
+  public getAllDelete(): Observable<Permission[]> {
+    return this.http.get<Permission[]>(this.URLBase + '/getDelete');
+  }
+
+
   public logicalDelete(id: number): Observable<any> {
     return this.http.patch(`${this.URLBase}/logical-delete/${id}`, {});
   }

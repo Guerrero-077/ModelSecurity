@@ -15,15 +15,15 @@ import { FormModel } from '../../../Models/form/form.models';
 export class ListDeletesComponent {
 
   formService = inject(FormService);
-  forms!: FormModel[];
-
   isAdmin: boolean = false;
+  
+  forms!: FormModel[];
+  displayedColumns: string[] = [];
+
 
   role = localStorage.getItem("role");
 
-  /**
-   *
-   */
+
   constructor() {
     this.isAdmin = this.role === "Admin"
 
@@ -39,7 +39,6 @@ export class ListDeletesComponent {
     })
   }
 
-  displayedColumns: string[] = [];
 
   restore(id: number) {
     this.formService.logicalRestore(id).subscribe(() => {

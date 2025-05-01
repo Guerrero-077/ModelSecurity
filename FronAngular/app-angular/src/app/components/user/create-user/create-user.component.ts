@@ -17,7 +17,7 @@ export class CreateUserComponent {
 
   gurdarCambios(form: UserCreate) {
     this.userService.createForm(form).subscribe(() => {
-      this.router.navigate(['form']);
+      this.router.navigate(['user']);
     });
   }
 }

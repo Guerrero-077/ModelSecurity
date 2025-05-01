@@ -51,9 +51,13 @@ namespace Data.Services
 
         public async Task<User?> GetByIdJoinAsync(int id)
         {
+            //return await _context.Set<User>()
+            //            .Include(u => u.person)
+            //            .Where(u => !u.is_deleted && u.id == id)
+            //            .FirstOrDefaultAsync();            
             return await _context.Set<User>()
                         .Include(u => u.person)
-                        .Where(u => !u.is_deleted && u.id == id)
+                        .Where(u => u.id == id)
                         .FirstOrDefaultAsync();
         }
     }

@@ -1,5 +1,6 @@
 <h2>List Module</h2>
 <button mat-flat-button routerLink="/module/create">Create module</button>
+<button *ngIf="isAdmin" mat-flat-button routerLink="/module/listDeleteModule">Restore</button>
 
 @if (modules) {
 

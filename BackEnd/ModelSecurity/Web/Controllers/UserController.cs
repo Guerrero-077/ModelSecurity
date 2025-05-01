@@ -61,7 +61,7 @@ namespace Web.Controllers
         {
             try
             {
-                var users = await _UserBusiness.GetAllDeletes();
+                var users = await _UserBusiness.GetAllDeletesJoin();
                 return Ok(users);
             }
             catch (ExternalServiceException ex)

@@ -34,6 +34,10 @@ export class UserService {
     return this.http.delete(`${this.URLBase}/${id}`);
   }
 
+  public getAllDeletes(): Observable<User[]> {
+    return this.http.get<User[]>(`${this.URLBase}/getDelete`);
+  }
+
   public logicalDelete(id: number): Observable<any> {
     return this.http.patch(`${this.URLBase}/logical-delete/${id}`, {});
   }

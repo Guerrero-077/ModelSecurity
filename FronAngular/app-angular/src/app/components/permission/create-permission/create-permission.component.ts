@@ -16,7 +16,7 @@ export class CreatePermissionComponent {
 
   gurdarCambios(form: PermissionCreate){
     this.permissionService.createForm(form).subscribe(() =>{
-      this.router.navigate(['form']);
+      this.router.navigate(['permission']);
     });
   }
 }

@@ -1,5 +1,6 @@
 <h2>List Permission</h2>
 <button mat-flat-button routerLink="/permission/create">Create permission</button>
+<button *ngIf="isAdmin" mat-flat-button routerLink="/permission/listDeletePermission">Resotore</button>
 
 @if (permissions) {
 

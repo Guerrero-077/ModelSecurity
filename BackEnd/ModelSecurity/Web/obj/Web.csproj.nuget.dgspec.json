@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj": {}
+    "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj": {}
   },
   "projects": {
-    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {
+    "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
-        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\obj\\",
+        "outputPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
-                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj"
+              "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj"
               },
-              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
+              "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
               },
-              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
-                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj"
+              "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
+    "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
-        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\obj\\",
+        "outputPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
+              "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+    "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
-        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -261,14 +261,14 @@
         }
       }
     },
-    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
-        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -326,14 +326,14 @@
         }
       }
     },
-    "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj": {
+    "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\braya\\.nuget\\packages\\",
-        "outputPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\obj\\",
+        "outputPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -354,11 +354,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {
-                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj"
+              "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Business.csproj"
               },
-              "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
+              "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj"
               }
             }
           }

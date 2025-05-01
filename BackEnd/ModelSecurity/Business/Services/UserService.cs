@@ -43,7 +43,7 @@ namespace Business.Services
         {
             if (dto == null)
             {
-                throw new ValidationException("El objeto Rol no puede ser nulo");
+                throw new ValidationException("El objeto User no puede ser nulo");
             }
 
         }
@@ -54,7 +54,7 @@ namespace Business.Services
             if (entity == null)
             {
                 _logger.LogWarning($"Se intentó operar con un ID inválido: {id}");
-                throw new EntityNotFoundException($"No se encontró una Rol con el ID {id}");
+                throw new EntityNotFoundException($"No se encontró una User con el ID {id}");
             }
         }
     }

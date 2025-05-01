@@ -4,10 +4,11 @@ import { ModuleService } from '../../../Services/module/module.service';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
 import { RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-list-mudule',
-  imports: [MatButtonModule, RouterLink, MatTableModule],
+  imports: [MatButtonModule, RouterLink, MatTableModule, CommonModule],
   templateUrl: './list-mudule.component.html',
   styleUrl: './list-mudule.component.css'
 })
@@ -16,10 +17,15 @@ export class ListMuduleComponent {
   modules?: Module[];
   columns = ['name', 'description', 'action']
 
-  constructor() {
-    this.getAll();
-  }
+  isAdmin: boolean = false;
 
+  role = localStorage.getItem("role");
+
+  constructor() {
+    this.isAdmin = this.role === "Admin";
+    this.getAll();
+
+  }
   public getAll() {
     this.moduleServices.getAllModule().subscribe(modules => {
       this.modules = modules;

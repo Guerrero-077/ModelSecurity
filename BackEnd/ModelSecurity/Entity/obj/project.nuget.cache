@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VVeYAH+WmV8=",
+  "dgSpecHash": "wc2n+HFQvmc=",
   "success": true,
-  "projectFilePath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\braya\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\braya\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

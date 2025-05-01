@@ -1,61 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\",
+  "WorkspaceRootPath": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\data\\repository\\datageneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\repository\\datageneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\data\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\data\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\data\\services\\roluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\roluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\data\\repository\\datageneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\repository\\datageneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\data\\services\\rolformpermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\rolformpermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FC842AF-770E-483B-A292-37AA19F8557F}|Business\\Business.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC842AF-770E-483B-A292-37AA19F8557F}|Business\\Business.csproj|solutionrelative:business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\data\\services\\formmodulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\formmodulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|d:\\revisa-eliminar\\proyectos\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\data\\services\\roluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\roluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\data\\services\\rolformpermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\rolformpermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\data\\services\\formmodulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31300A68-CEAE-4D08-B88C-0650384BE020}|Data\\Data.csproj|solutionrelative:data\\services\\formmodulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\extensions\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|c:\\users\\braya\\onedrive\\desktop\\modelsecurity\\backend\\modelsecurity\\web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8158B89D-D767-4877-8133-B3E257C00F22}|Web\\Web.csproj|solutionrelative:web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,65 +70,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Web\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Business\\Services\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:56:37.145Z",
+              "WhenOpened": "2025-05-01T19:20:29.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\UserRepository.cs",
+              "RelativeToolTip": "Data\\Services\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:38:10.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\UserController.cs",
               "RelativeToolTip": "Web\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAgwNsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:31:18.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T04:31:18.208Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FormModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormModuleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\FormModuleController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormModuleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\FormModuleController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAwwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:02:01.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:56:37.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PersonController.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\PersonController.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\PersonController.cs",
               "RelativeToolTip": "Web\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T04:31:08.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Services\\UserRepository.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\UserRepository.cs",
-              "RelativeToolTip": "Data\\Services\\UserRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAjwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:38:10.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RolUserRepository.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolUserRepository.cs",
               "RelativeDocumentMoniker": "Data\\Services\\RolUserRepository.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolUserRepository.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolUserRepository.cs",
               "RelativeToolTip": "Data\\Services\\RolUserRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,11 +159,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RolFormPermissionRepository.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolFormPermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolFormPermissionRepository.cs",
               "RelativeDocumentMoniker": "Data\\Services\\RolFormPermissionRepository.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolFormPermissionRepository.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\RolFormPermissionRepository.cs",
               "RelativeToolTip": "Data\\Services\\RolFormPermissionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +171,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "FormModuleRepository.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\FormModuleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\FormModuleRepository.cs",
               "RelativeDocumentMoniker": "Data\\Services\\FormModuleRepository.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\FormModuleRepository.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Services\\FormModuleRepository.cs",
               "RelativeToolTip": "Data\\Services\\FormModuleRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,24 +183,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataGeneric.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Repository\\DataGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Repository\\DataGeneric.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\DataGeneric.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Repository\\DataGeneric.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Data\\Repository\\DataGeneric.cs",
               "RelativeToolTip": "Data\\Repository\\DataGeneric.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAIAwwBkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAWwBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:25:38.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:25:38.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Program.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Program.cs",
               "RelativeToolTip": "Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CorsServiceExtensions.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Extensions\\CorsServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Extensions\\CorsServiceExtensions.cs",
               "RelativeDocumentMoniker": "Web\\Extensions\\CorsServiceExtensions.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Extensions\\CorsServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Extensions\\CorsServiceExtensions.cs",
               "RelativeToolTip": "Web\\Extensions\\CorsServiceExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ModuleController.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\ModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\ModuleController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\ModuleController.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\ModuleController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\ModuleController.cs",
               "RelativeToolTip": "Web\\Controllers\\ModuleController.cs",
               "ViewState": "AgIAAI0AAAAAAAAAAAAowNoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,23 +231,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormModuleController.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormModuleController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\FormModuleController.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormModuleController.cs",
-              "RelativeToolTip": "Web\\Controllers\\FormModuleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T00:02:01.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FormController.cs",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormController.cs",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\FormController.cs",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormController.cs",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\Controllers\\FormController.cs",
               "RelativeToolTip": "Web\\Controllers\\FormController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,16 +243,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "Web\\appsettings.json",
-              "ToolTip": "D:\\Revisa-Eliminar\\proyectos\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\braya\\OneDrive\\Desktop\\ModelSecurity\\BackEnd\\ModelSecurity\\Web\\appsettings.json",
               "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-28T23:27:20.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T23:27:20.026Z"
             }
           ]
         }

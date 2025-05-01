@@ -32,6 +32,10 @@ export class RolService {
     return this.http.delete(`${this.URLBase}/${id}`);
   }
 
+  public getAllDelete(): Observable<Rol[]>{
+    return this.http.get<Rol[]>(`${this.URLBase}/getDelete`);
+  }
+
   public logicalDelete(id: number): Observable<any> {
     return this.http.patch(`${this.URLBase}/logical-delete/${id}`, {});
   }

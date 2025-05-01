@@ -28,6 +28,14 @@ import { EditFormModuleComponent } from './components/formModule/edit-form-modul
 import { EditRolComponent } from './components/rol/edit-rol/edit-rol.component';
 import { LoginComponent } from './components/login/login/login.component';
 import { ListDeletesComponent } from './components/form/list-deletes/list-deletes.component';
+import { ListDeletePersonComponent } from './components/person/list-delete-person/list-delete-person.component';
+import { ListDeleteRolComponent } from './components/rol/list-delete-rol/list-delete-rol.component';
+import { ListDeleteModuleComponent } from './components/module/list-delete-module/list-delete-module.component';
+import { ListDeleteUserComponent } from './components/user/list-delete-user/list-delete-user.component';
+import { ListDeletePermissionComponent } from './components/permission/list-delete-permission/list-delete-permission.component';
+import { ListDeleteRolFormPermissionComponent } from './components/rolFormPermission/list-delete-rol-form-permission/list-delete-rol-form-permission.component';
+import { ListDeleteRolUserComponent } from './components/rolUser/list-delete-rol-user/list-delete-rol-user.component';
+import { ListDeleteFormModuleComponent } from './components/formModule/list-delete-form-module/list-delete-form-module.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -37,10 +45,12 @@ export const routes: Routes = [
     { path: 'person', component: ListPersonComponent },
     { path: 'person/create', component: CreatePersonComponent },
     { path: 'person/update/:id', component: EditPersonComponent },
+    {path: 'person/listDeletePerson', component: ListDeletePersonComponent},
 
     { path: 'rol', component: ListRolComponent },
     { path: 'rol/create', component: CreateRolComponent },
     { path: 'rol/update/:id', component: EditRolComponent },
+    {path: 'rol/listDeleteRol', component: ListDeleteRolComponent},
 
     { path: 'form', component: FormListComponent },
     { path: 'form/create', component: CreateFormComponent },
@@ -51,24 +61,30 @@ export const routes: Routes = [
     { path: 'module', component: ListMuduleComponent },
     { path: 'module/create', component: CreateMuduleComponent },
     { path: 'module/update/:id', component: EditModuleComponent },
+    {path: 'module/listDeleteModule', component: ListDeleteModuleComponent},
 
     { path: 'user', component: ListUserComponent },
     { path: 'user/create', component: CreateUserComponent },
     { path: 'user/update/:id', component: EditUserComponent },
+    {path: 'user/listDeleteUser', component: ListDeleteUserComponent},
 
     { path: 'permission', component: ListPermissionComponent },
     { path: 'permission/create', component: CreatePermissionComponent },
     { path: 'permission/update/:id', component: EditPermissionComponent },
+    { path: 'permission/listDeletePermission', component: ListDeletePermissionComponent },
 
     { path: 'rolFormPermission', component: ListRolFormPermissionComponent },
     { path: 'rolFormPermission/create', component: CreateRolFormPermissionComponent },
     { path: 'rolFormPermission/update/:id', component: EditRolFormPermissionComponent },
+    { path: 'rolFormPermission/listDeleteRolFormPermission', component: ListDeleteRolFormPermissionComponent },
 
     { path: 'rolUser', component: ListRolUserComponent },
     { path: 'rolUser/create', component: CreateRolUserComponent },
     { path: 'rolUser/update/:id', component: EditRolUserComponent },
+    { path: 'rolUser/listDeleteRolUser', component: ListDeleteRolUserComponent },
 
     { path: 'formModule', component: ListFormModuleComponent },
     { path: 'formModule/create', component: CreateFormModuleComponent },
     { path: 'formModule/update/:id', component: EditFormModuleComponent },
+    { path: 'formModule/listDeleteFormMoudule', component: ListDeleteFormModuleComponent },
 ];

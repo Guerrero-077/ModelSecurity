@@ -1,5 +1,6 @@
 <h2>List Rol</h2>
 <button mat-flat-button routerLink="/rol/create">Create rol</button>
+<button *ngIf="isAdmin" mat-flat-button routerLink="/rol/listDeleteRol">Restore</button>
 
 @if (rols) {
 
